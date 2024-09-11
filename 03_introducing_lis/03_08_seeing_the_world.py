@@ -1,0 +1,12 @@
+destinations = ["Greece", "Italy", "New Zealand", "Russia", "Caribbean"]
+print (f"Here is my original list \n {destinations}\n")
+print (f"Here is my sorted list \n {sorted(destinations)}\n")
+print (f"Here is the list in its original form \n {destinations}\n")
+destinations.reverse()
+print (f"Here is my reversed list \n {destinations}\n")
+destinations.reverse()
+print (f"Here is the list in its original form \n {destinations}\n")
+destinations.sort()
+print (f"Here is my sorted list \n {sorted(destinations)}\n")
+destinations.sort(reverse=True)
+print (f"Here is my reverse sorted list \n {destinations}\n")

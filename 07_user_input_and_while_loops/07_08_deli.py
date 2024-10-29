@@ -7,3 +7,5 @@ while sandwich_orders:
     finished_sandwiches.append(sandwich)
 
 print (f"Here is the list of finished sandwiches {finished_sandwiches}")
+
+print (f"Here is the list of finished sandwiches {sandwich_orders}")
